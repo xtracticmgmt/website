@@ -1,0 +1,253 @@
+/* General Styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  background-color: #1a1a1a;
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  font-weight: 600;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.btn-primary, .btn-secondary {
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: 600;
+  transition: background 0.3s ease;
+}
+
+.btn-primary {
+  background: #6c5ce7;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background: #4a3fbf;
+}
+
+.btn-secondary {
+  background: transparent;
+  border: 2px solid #6c5ce7;
+  color: #6c5ce7;
+}
+
+.btn-secondary:hover {
+  background: #6c5ce7;
+  color: #fff;
+}
+
+/* Hero Section */
+.hero {
+  background: url('studio-bg.jpg') no-repeat center center/cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.cta-buttons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+/* Features Section */
+.features {
+  padding: 60px 20px;
+  text-align: center;
+  background: #2d2d2d;
+}
+
+.features h2 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+}
+
+.feature-cards {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: #3d3d3d;
+  padding: 20px;
+  border-radius: 10px;
+  width: 250px;
+}
+
+.card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+/* Product Showcase Section */
+.products {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.products h2 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+}
+
+.product-cards {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.product-card {
+  background: #3d3d3d;
+  padding: 20px;
+  border-radius: 10px;
+  width: 250px;
+}
+
+.product-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.price {
+  font-size: 1.2rem;
+  color: #6c5ce7;
+  margin-bottom: 20px;
+}
+
+/* Testimonials Section */
+.testimonials {
+  padding: 60px 20px;
+  text-align: center;
+  background: #2d2d2d;
+}
+
+.testimonials h2 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+}
+
+.testimonial-cards {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.testimonial-card {
+  background: #3d3d3d;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+}
+
+.testimonial-card p {
+  font-style: italic;
+}
+
+.author {
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+/* Free Sample Section */
+.free-samples {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.free-samples h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.free-samples p {
+  margin-bottom: 30px;
+}
+
+/* About Us Section */
+.about {
+  padding: 60px 20px;
+  text-align: center;
+  background: #2d2d2d;
+}
+
+.about h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.about p {
+  margin-bottom: 30px;
+}
+
+/* Newsletter Section */
+.newsletter {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.newsletter h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.newsletter p {
+  margin-bottom: 30px;
+}
+
+.newsletter form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.newsletter input {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  width: 300px;
+}
+
+/* Footer */
+footer {
+  padding: 40px 20px;
+  text-align: center;
+  background: #2d2d2d;
+}
+
+.footer-links, .social-icons, .legal {
+  margin-bottom: 20px;
+}
+
+.footer-links a, .social-icons a, .legal a {
+  margin: 0 10px;
+  color: #6c5ce7;
+}
+
+.footer-links a:hover, .social-icons a:hover, .legal a:hover {
+  color: #4a3fbf;
+}
