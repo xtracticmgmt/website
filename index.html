@@ -6,10 +6,33 @@
   <title>Musician Landing Page</title>
   <link rel="stylesheet" href="styles.css">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <div class="logo">
+        <img src="logo.png" alt="Logo">
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#new-album">Sound Kits</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-discord"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-tiktok"></i></a>
+      </div>
+    </div>
+  </header>
+
   <!-- Hero Section -->
-  <section class="hero">
+  <section id="home" class="hero">
     <div class="hero-content">
       <h1>NEW SONG</h1>
       <p class="date">12.19.2022</p>
@@ -18,13 +41,48 @@
     </div>
   </section>
 
-  <!-- New Album Section -->
-  <section class="new-album">
-    <div class="album-content">
-      <h2>NEW ALBUM</h2>
-      <p>Coming soon. Stay tuned for more updates!</p>
-      <a href="#" class="btn-secondary">Pre-Order Now</a>
+  <!-- Sound Kits Section -->
+  <section id="new-album" class="sound-kits">
+    <h2>NEW ALBUM</h2>
+    <p>Check out our exclusive sound kits:</p>
+    <div class="kit-cards">
+      <div class="kit-card">
+        <h3>808 Dreams</h3>
+        <p class="price">$29.99</p>
+        <a href="#" class="btn-primary">Buy Now</a>
+      </div>
+      <div class="kit-card">
+        <h3>Synthwave Essentials</h3>
+        <p class="price">$34.99</p>
+        <a href="#" class="btn-primary">Buy Now</a>
+      </div>
+      <div class="kit-card">
+        <h3>Chill Loops Vol. 3</h3>
+        <p class="price">$24.99</p>
+        <a href="#" class="btn-primary">Buy Now</a>
+      </div>
+      <div class="kit-card">
+        <h3>Bassline Grooves</h3>
+        <p class="price">$39.99</p>
+        <a href="#" class="btn-primary">Buy Now</a>
+      </div>
+      <div class="kit-card">
+        <h3>Future Beats</h3>
+        <p class="price">$29.99</p>
+        <a href="#" class="btn-primary">Buy Now</a>
+      </div>
     </div>
+  </section>
+
+  <!-- Contact Form Section -->
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit" class="btn-primary">Send Message</button>
+    </form>
   </section>
 
   <!-- Footer -->

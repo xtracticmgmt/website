@@ -8,7 +8,7 @@ body {
   line-height: 1.6;
 }
 
-h1, h2 {
+h1, h2, h3 {
   font-weight: 600;
 }
 
@@ -44,6 +44,56 @@ a {
   color: #6a11cb;
 }
 
+/* Header */
+header {
+  background: rgba(0, 0, 0, 0.3);
+  padding: 20px 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.logo img {
+  height: 40px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li a {
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #ff6f61;
+}
+
+.social-icons {
+  display: flex;
+  gap: 15px;
+}
+
+.social-icons a {
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #ff6f61;
+}
+
 /* Hero Section */
 .hero {
   height: 100vh;
@@ -72,21 +122,76 @@ a {
   margin-right: auto;
 }
 
-/* New Album Section */
-.new-album {
+/* Sound Kits Section */
+.sound-kits {
   padding: 60px 20px;
   text-align: center;
   background: rgba(0, 0, 0, 0.2);
 }
 
-.new-album h2 {
+.sound-kits h2 {
   font-size: 3rem;
   margin-bottom: 20px;
 }
 
-.new-album p {
+.sound-kits p {
   font-size: 1.2rem;
   margin-bottom: 30px;
+}
+
+.kit-cards {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.kit-card {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  width: 200px;
+}
+
+.kit-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.kit-card .price {
+  font-size: 1.2rem;
+  color: #ff6f61;
+  margin-bottom: 20px;
+}
+
+/* Contact Form Section */
+.contact {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.contact form {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact input, .contact textarea {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  font-size: 1rem;
+}
+
+.contact textarea {
+  resize: vertical;
 }
 
 /* Footer */
